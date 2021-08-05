@@ -1,0 +1,37 @@
+.item {
+    display: inline-block;
+    /* width: 600px;
+    height: 400px; */
+    border: 2px solid var(--primary);
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: var(--background-light);
+}
+
+.item img {
+    /* margin-bottom: 2rem;
+    width: 50%; */
+    float: center;
+    width:  400px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.item button {
+    margin: .5rem 0;
+}
+
+.item .item-controls > *{
+    display: inline-block;
+}
+
+.item .item-controls {
+    margin-top: 15px;
+}
+
+.item .btn-add {
+    margin-left: 20px;
+    
+}
